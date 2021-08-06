@@ -637,7 +637,7 @@ anu = await fetchJson(`https://xyz-restapikey.herokuapp.com/api/muslim/doaharian
            }
            reply(teks)
             break
-
+ 
 case 'ayatkursi':
 anu = await fetchJson(`https://xyz-restapikey.herokuapp.com/api/muslim/ayatkursi`)
             oi = anu.result.data
