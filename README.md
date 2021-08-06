@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://a.uguu.se/rzuxHjbG.jpg" alt="XYZteam" width="300" />
+<img src="https://i.ibb.co/fqxf9rs/amongus-dance.gif" alt="XYZteam" width="300" />
 
 # Jangan lupa kasih stars & follow :)
 
