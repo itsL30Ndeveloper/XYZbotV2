@@ -481,6 +481,10 @@ const atibot = dev.isBaileys
 if (atibot === true) return
 
 switch (command) {
+    
+    case 'xyz'
+    case 'xyzbot':
+    case 'botmenu':
     case 'menu':
     case 'help':
     const timestampp = speed();
@@ -495,9 +499,11 @@ pic = 'https://i.ibb.co/Tq7d7TZ/age-hananta-495-photo.png'
 gambar = await getBuffer(pic)
 mhan = await xdev.prepareMessage(from, gambar, image, {thumbnail: gambar})
 gbutsan = [
+    {buttonId: 'RULES', buttonText: {displayText: 'RULES'}, type: 1},
   {buttonId: 'CREATOR', buttonText: {displayText: 'CREATOR'}, type: 1},
   {buttonId: 'GITHUB', buttonText: {displayText: 'GITHUB'}, type: 1},
-  {buttonId: 'REST API TEAM', buttonText: {displayText: 'REST API'}, type: 1}
+  {buttonId: 'REST API TEAM', buttonText: {displayText: 'REST API'}, type: 1},
+  {buttonId: 'SEWA BOT', buttonText: {displayText: 'SEWA BOT'}, type: 1}
 ]
  gbuttonan = {
 imageMessage: mhan.message.imageMessage,
@@ -2288,6 +2294,10 @@ hehe = await xdev.sendMessage(from, {
 }, 'contactsArrayMessage', { quoted: dev })
 xdev.sendMessage(from,'Nih Kak Creator XYZBot',text,{quoted: hehe})
 }
+if (button == 'RULES') {
+console.log('RULES')
+xdev.sendMessage(from, `*Rules* \n\n\n${petik}⬡ Jangan telepon bot${petik}\n${petik}Sanksi: Block Permanent${petik}\n\n${petik}⬡ Jangan spam bot${petik}\n${petik}Sanksi : Block 1 hari${petik}\n\n${petik}⬡ Jangan hina bot secara gc/dm${petik}\n${petik}Sanksi : Block 1 hari${petik}\n\n${petik}⬡ Jangan memperjual belikan bot${petik}\n${petik}Sanksi : Block permanent${petik}\n\n*Semoga Rules ini Dapat Dipahami dan Tidak Dilanggar.*`, text, {quoted: dev})
+}
 if (button == 'GITHUB') {
 console.log('GITHUB')
 xdev.sendMessage(from, `*Nih kak github XYZTeam*\n*Scnya free kak dan juga free api 🤗*\n*Ingat ! jangan diperjual belikan yah !*\n\nhttps://github.com/130N-STUDIO`, text, {quoted: dev})
@@ -2295,6 +2305,10 @@ xdev.sendMessage(from, `*Nih kak github XYZTeam*\n*Scnya free kak dan juga free 
 if (button == 'REST API') {
 console.log('REST API')
 xdev.sendMessage(from, `*Ini bro rest api dari XYZteam*\nhttps://xyz-restapikey.herokuapp.com/api\n\n*Gunakan dengan bijak dan jangan spam yah bro  🙏🏻*\n*APIKEY : xyz*`, text, {"contextInfo": {text: 'HelloWorld',"forwardingScore": 3,isForwarded: true,sendEphemeral: true,mentionedJid: [sender],"externalAdReply": {"title": `Hallo kak ${pushname}`,"body": ``,"previewType": "PHOTO","thumbnailUrl": `https://telegra.ph/file/a082de791ef8aff96ec24.jpg`,"thumbnail": "","sourceUrl": ""}}, quoted: dev})
+}
+if (button == 'SEWA BOT') {
+console.log('SEWA BOT')
+xdev.sendMessage(from, `*SEWA BOT* \n\n\n${petik}⬡ 2 MINGGU{petik}\n${petik}Rp. 15.000,00${petik}\n\n${petik}⬡ 1 BULAN${petik}\n${petik}Rp. 20.000,00${petik}\n\n${petik}⬡ 1 TAHUN{petik}\n${petik}Rp. 100.000,00${petik}\n\n${petik}⬡ PERMANENT{petik}\n${petik}Rp. 300.000,00${petik}\n\n*ANDA MINAT? SILAHKAN PM OWNER : wa.me/628881372457*`, text, {quoted: dev})
 }
 if (budy.startsWith('$')){
 if (!dev.key.fromMe && !isOwner) return
