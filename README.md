@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://a.uguu.se/rzuxHjbG.jpg" alt="X - Dev Team" width="300" />
+<img src="https://a.uguu.se/rzuxHjbG.jpg" alt="XYZteam" width="300" />
 
 # Jangan lupa kasih stars & follow :)
 
@@ -8,10 +8,10 @@
 >
 </div>
 <p align="center">
-  <a href="https://github.com/xdevteam404"><img title="Author" src="https://img.shields.io/badge/Author-xdev team-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/130N-STUDIO"><img title="Author" src="https://img.shields.io/badge/Author-XYZteam-red.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
   <a
-  <a href="https://wa.me/62895619083555">SC FREE API KOK GAN >//< </a>
+  <a href="https://wa.me/628881372457">FREE APIKEY BRO>//< </a>
 </h4>
 </p>
 
@@ -37,13 +37,13 @@
 ```
 
 # Baca Nih!!!
-- Change [ownerNumb](https://github.com/xdevteam404/xdev-self/blob/main/xdev.js#71)
+- Change [ownerNumb](https://github.com/130N-STUDIO/XYZbotV2/blob/main/thisleonreal.js#71)
 
-- Change [Menu](https://github.com/xdevteam404/xdev-self/blob/main/message/help.js)
+- Change [Menu](https://github.com/130N-STUDIO/XYZbotV2/blob/main/message/help.js)
 
-- Change [Thumbnail](https://github.com/xdevteam404/xdev-self/blob/main/stik/thumb.jpeg)
+- Change [Thumbnail](https://github.com/130N-STUDIO/XYZbotV2/blob/main/stik/thumb.jpeg)
 
-- Change [FakeThumbn](https://github.com/xdevteam404/xdev-self/blob/main/stik/fake.jpeg)
+- Change [FakeThumbn](https://github.com/130N-STUDIO/XYZbotV2/blob/main/stik/fake.jpeg)
 
 # INSTALLL
 * [Node.js](https://nodejs.org/en/)
@@ -230,6 +230,9 @@
 | DELVOTE |✅|
 
 # THANKS TO 🎆
+
+• [`xdev-self`](https://github.com/xdevteam404/xdev-self)
+
 • [`Baileys`](https://github.com/adiwajshing/Baileys)
 
 • [`Hexagonz`](https://github.com/Hexagonz)
