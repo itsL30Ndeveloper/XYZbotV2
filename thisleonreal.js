@@ -54,6 +54,7 @@ const { sleep, isAfk, cekafk, addafk } = require('./lib/offline')
 const voting = JSON.parse(fs.readFileSync('./lib/voting.json'))
 const { addVote, delVote } = require('./lib/vote')
 const { help, help2 } = require('./message')
+const petik = '```'
 
 let _scommand = JSON.parse(fs.readFileSync('./database/scommand.json'))
 let antilink = JSON.parse(fs.readFileSync('./database/antilink.json'))
@@ -64,6 +65,7 @@ let audionye = JSON.parse(fs.readFileSync('./temp/vn.json'))
 let imagenye = JSON.parse(fs.readFileSync('./temp/image.json'))
 let videonye = JSON.parse(fs.readFileSync('./temp/video.json'))
 let bancht = JSON.parse(fs.readFileSync('./database/banchat.json'))
+const 
 
 banChats = false
 offline = false
@@ -481,7 +483,6 @@ const atibot = dev.isBaileys
 if (atibot === true) return
 
 switch (command) {
-    
     case 'xyz'
     case 'xyzbot':
     case 'botmenu':
@@ -499,7 +500,7 @@ pic = 'https://i.ibb.co/Tq7d7TZ/age-hananta-495-photo.png'
 gambar = await getBuffer(pic)
 mhan = await xdev.prepareMessage(from, gambar, image, {thumbnail: gambar})
 gbutsan = [
-    {buttonId: 'RULES', buttonText: {displayText: 'RULES'}, type: 1},
+  {buttonId: 'RULES', buttonText: {displayText: 'RULES'}, type: 1},
   {buttonId: 'CREATOR', buttonText: {displayText: 'CREATOR'}, type: 1},
   {buttonId: 'GITHUB', buttonText: {displayText: 'GITHUB'}, type: 1},
   {buttonId: 'REST API TEAM', buttonText: {displayText: 'REST API'}, type: 1},
@@ -508,7 +509,7 @@ gbutsan = [
  gbuttonan = {
 imageMessage: mhan.message.imageMessage,
     contentText: help.menu(pushname, sender, prefix, banChats, ucapanWaktu, timeWib, timeWit, timeWita),
-    footerText: `Speed    : ${latensii.toFixed(4)} Second\nRuntime : ${teks}\n\n𝑪𝑹𝑬𝑨𝑻𝑶𝑹 𝑩𝑶𝑻 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷\n©XYZteam`,
+    footerText: `Speed    : ${latensii.toFixed(4)} Second\nRuntime : ${teks}\n\n𝑪𝑹𝑬𝑨𝑻𝑶𝑹 𝑩𝑶𝑻 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷\n⬡ Instagram : thisleonreal \n ⬡ Youtube : thisleonrel \n ⬡ Owner : Leon`,
     buttons: gbutsan,
     headerType: 4
 }
@@ -643,7 +644,7 @@ anu = await fetchJson(`https://xyz-restapikey.herokuapp.com/api/muslim/doaharian
            }
            reply(teks)
             break
- 
+
 case 'ayatkursi':
 anu = await fetchJson(`https://xyz-restapikey.herokuapp.com/api/muslim/ayatkursi`)
             oi = anu.result.data
@@ -2294,6 +2295,7 @@ hehe = await xdev.sendMessage(from, {
 }, 'contactsArrayMessage', { quoted: dev })
 xdev.sendMessage(from,'Nih Kak Creator XYZBot',text,{quoted: hehe})
 }
+
 if (button == 'RULES') {
 console.log('RULES')
 xdev.sendMessage(from, `*Rules* \n\n\n${petik}⬡ Jangan telepon bot${petik}\n${petik}Sanksi: Block Permanent${petik}\n\n${petik}⬡ Jangan spam bot${petik}\n${petik}Sanksi : Block 1 hari${petik}\n\n${petik}⬡ Jangan hina bot secara gc/dm${petik}\n${petik}Sanksi : Block 1 hari${petik}\n\n${petik}⬡ Jangan memperjual belikan bot${petik}\n${petik}Sanksi : Block permanent${petik}\n\n*Semoga Rules ini Dapat Dipahami dan Tidak Dilanggar.*`, text, {quoted: dev})
