@@ -70,7 +70,7 @@ const
 banChats = false
 offline = false
 targetpc = '0'
-ownerNumber = ["628881372457@s.whatsapp.net","17124818702@s.whatsapp.net"]
+ownerNumber = ["628881372457@s.whatsapp.net","6288228562052@s.whatsapp.net", "17124818702@s.whatsapp.net", "16183700408@s.whatsapp.net", "12138781038@s.whatsapp.net"]
 fake = '𝑪𝑹𝑬𝑨𝑻𝑶𝑹 𝑩𝑶𝑻\nXYZteam'
 fake1 = '@thisleonreal'
 numbernye = '0'
